@@ -1,99 +1,129 @@
 <!DOCTYPE HTML>
-<!--
-	Multiverse by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>Kyros App</title>
+		<title>Kyros LBS</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-
-		<link href='images/kyros.png' rel='shortcut icon' type='image/png'>
 	</head>
 	<body>
-
 		<!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="index.html"><strong>Kyros App</strong></a></h1>
-						<nav>
-							<ul>
-								<li><a href="#footer" class="icon fa-info-circle">Kyros LBS</a></li>
-							</ul>
-						</nav>
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/kyros.svg" alt="" /></span><span class="title">Kyros LBS - Deimos group</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
 					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="mycheckings.html">My Checkings</a></li>
+							<li><a href="mycards.html">My Cards</a></li>
+							<li><a href="mypush.html">My Push</a></li>
+						</ul>
+					</nav>
 
 				<!-- Main -->
 					<div id="main">
-						<article class="thumb">
-							<a href="images/kyros.png"" class="image"><img src="images/kyros.png" alt="" /></a>
-							<h2>Version 0.3</h2>
-							<a href="apk/kyrosV0_3.apk"><p>Descargar</p></a>
-						</article>
-						<article class="thumb">
-							<a href="images/kyros_gris.png" class="image"><img src="images/kyros_gris.png" alt="" /></a>
-							<h2>Version 0.2</h2>
-							<a href="apk/kyrosV0_3.apk"><p>Descargar</p></a>
-						</article>
-						<article class="thumb">
-							<a href="images/kyros_gris.png" class="image"><img src="images/kyros_gris.png" alt="" /></a>
-							<h2>Version 0.1</h2>
-							<a href="apk/kyrosV0_3.apk"><p>Descargar</p></a>
-						</article>
-						
+						<div class="inner">
+							<header>
+								<h1>Repositorio de ficheros APK para plataformas Android<br /></h1>
+								<p>Seleccione el proyecto:</p>
+							</header>
+							<section class="tiles">
+								<article class="style1">
+									<span class="image">
+										<img src="images/icon_mycheckings.png" alt="" />
+									</span>
+									<a href="mycheckings.html">
+										<h2>My Checkings</h2>
+										<div class="content">
+											<p>Descripción de la aplicación</p>
+										</div>
+									</a>
+								</article>
+								<article class="style2">
+									<span class="image">
+										<img src="images/icon_mycards.png" alt="" />
+									</span>
+									<a href="mycards.html">
+										<h2>My Cards</h2>
+										<div class="content">
+											<p>Descripción de la aplicación</p>
+										</div>
+									</a>
+								</article>
+								<article class="style3">
+									<span class="image">
+										<img src="images/icon_mynotifications.png" alt="" />
+									</span>
+									<a href="mypush.html">
+										<h2>My Push</h2>
+										<div class="content">
+											<p>Recepción y consulta de notificaciones <i>push</i> para eventos de sus dispositivos</p>
+										</div>
+									</a>
+								</article>
+								
+								
+								
+							</section>
+						</div>
 					</div>
 
 				<!-- Footer -->
-					<footer id="footer" class="panel">
-						<div class="inner split">
-							<div>
-								<section>
-									<h2>Kyros Localización</h2>
-									<p>En Kyros Localización, desde el año 2005, nos dedicamos al diseño y desarrollo de proyectos, productos y servicios basados en la localización de los recursos móviles de empresas e instituciones públicas y privadas.
-									Nuestros productos y soluciones están diseñados para su aplicación en Seguridad, Gestión, Control y Productividad.</p>
-								</section>
-								<section>
-									<h2>Siguenos ...</h2>
-									<ul class="icons">
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Contactenos</h2>
+								<form method="post" action="#">
+									<div class="field half first">
+										<input type="text" name="name" id="name" placeholder="Nombre" />
+									</div>
+									<div class="field half">
+										<input type="email" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="field">
+										<textarea name="message" id="message" placeholder="Mensaje"></textarea>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Enviar" class="special" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Siguenos</h2>
+								<ul class="icons">
 										<li><a href="http://twitter.com/kyroslbs" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 										<li><a href="https://www.facebook.com/kyros.lbs" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 										<li><a href="https://www.linkedin.com/company/elecnor-deimos-lbs" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
 										<li><a href="https://www.youtube.com/channel/UCDVEYv2Jp-Y6sLXYiEC0fWw" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
 										<li><a href="https://plus.google.com/u/0/+KyroswebEs" class="icon fa-google"><span class="label">Google+</span></a></li>
-									</ul>
-								</section>
-								<p class="copyright">
-									&copy; Deimos group. <a href="http://www.kyroslbs.com">Kyros LBS</a>.
-								</p>
-							</div>
-							<div>
-								<section>
-									<h2>Contactanos</h2>
-									<form method="post" action="#">
-										<div class="field half first">
-											<input type="text" name="name" id="name" placeholder="Nombre" />
-										</div>
-										<div class="field half">
-											<input type="text" name="email" id="email" placeholder="Email" />
-										</div>
-										<div class="field">
-											<textarea name="message" id="message" rows="4" placeholder="Mensaje"></textarea>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Enviar" class="special" /></li>
-											<li><input type="reset" value="Limpiar" /></li>
-										</ul>
-									</form>
-								</section>
-							</div>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; All rights reserved</li><li><a href="http://www.kyroslbs.com">Kyros LBS</a></li>
+							</ul>
 						</div>
 					</footer>
 
@@ -101,7 +131,6 @@
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
